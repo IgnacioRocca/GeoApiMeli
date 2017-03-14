@@ -36,4 +36,8 @@ class GeoController {
 		}
 		[counts:counts, masCercanas:masCercanas, masCercana:masCercana,lat:point.lat,lng:point.lng,range:params.rango,direccion:params.address]
 	}
+	
+	def capitales () {
+		render ("hola")
+	}
 }
